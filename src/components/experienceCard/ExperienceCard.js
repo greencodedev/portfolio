@@ -1,15 +1,15 @@
-import React, {useState, createRef} from "react";
+import React, {useState} from "react";
 import "./ExperienceCard.css";
-import ColorThief from "colorthief";
+// import ColorThief from "colorthief";
 
 export default function ExperienceCard({cardInfo, isDark}) {
-  const [colorArrays, setColorArrays] = useState([]);
-  const imgRef = createRef();
+  const [colorArrays] = useState([]);
+  // const imgRef = createRef();
 
-  function getColorArrays() {
-    const colorThief = new ColorThief();
-    setColorArrays(colorThief.getColor(imgRef.current));
-  }
+  // function getColorArrays() {
+  //   const colorThief = new ColorThief();
+  //   setColorArrays(colorThief.getColor(imgRef.current));
+  // }
 
   function rgb(values) {
     return typeof values === "undefined"
