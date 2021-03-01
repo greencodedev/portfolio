@@ -334,6 +334,30 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
+    {
+      image: require("./assets/images/onRun.PNG"),
+      projectName: "OnRun App",
+      projectDesc: "This app is running sports app based. 'onRun' garners and adorns your athletic results. It also allows to easily create a running event. Other users can search and join your event",
+      footerLink: [
+        {
+          name: "See Project",
+          url: "https://onrun.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/mumblit.PNG"),
+      projectName: "Mumblit",
+      projectDesc: "Mumblit is a free speech social media platform for those who are tired of being censored and blocked on the larger social media giants.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.mumblit.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
